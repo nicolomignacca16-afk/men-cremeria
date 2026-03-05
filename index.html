@@ -433,6 +433,9 @@
     <button class="nav-btn" onclick="showSection('gelati', this)"><span class="nav-icon">🍦</span>Gelati</button>
     <button class="nav-btn" onclick="showSection('brunch', this)"><span class="nav-icon">🥪</span>Salato</button>
     <button class="nav-btn" onclick="showSection('drink', this)"><span class="nav-icon">🍹</span>Drink</button>
+    <button class="nav-btn" onclick="showSection('pasticceria', this)"><span class="nav-icon">🍰</span>Pasticceria</button>
+    <button class="nav-btn" onclick="showSection('inverno', this)"><span class="nav-icon">❄️</span>Inverno</button>
+    <button class="nav-btn" onclick="showSection('estate', this)"><span class="nav-icon">☀️</span>Estate</button>
   </div>
 </div>
 
@@ -466,11 +469,16 @@
   <div class="cat-block">
     <div class="cat-title">Speciali</div>
     <div class="menu-grid">
-      <div class="menu-item special"><span class="menu-item-name">Cioccolata</span><span class="menu-item-price">€ 3,50</span></div>
-      <div class="menu-item special"><span class="menu-item-name">Cioccolata con Panna</span><span class="menu-item-price">€ 4,00</span></div>
-      <div class="menu-item special"><span class="menu-item-name">Cioccolata Speciale</span><span class="menu-item-price">€ 4,50</span></div>
       <div class="menu-item special"><span class="menu-item-name">Coppa Crema Pasticcera</span><span class="menu-item-price">€ 3,50</span></div>
       <div class="menu-item special"><span class="menu-item-name">Coppa Crema Pasticcera con Panna</span><span class="menu-item-price">€ 4,00</span></div>
+    </div>
+  </div>
+  <div class="cat-block">
+    <div class="cat-title">Caffè Speciali</div>
+    <div class="menu-grid">
+      <div class="menu-item special"><span class="menu-item-name">PIST – crema pist, panna, granella pist</span><span class="menu-item-price">€ 3,50</span></div>
+      <div class="menu-item special"><span class="menu-item-name">NUT – Nutella, panna, granella nocciola</span><span class="menu-item-price">€ 3,50</span></div>
+      <div class="menu-item special"><span class="menu-item-name">LOTUS – crema lotus, panna, granella biscotto</span><span class="menu-item-price">€ 3,50</span></div>
     </div>
   </div>
   <div class="cat-block">
@@ -524,7 +532,7 @@
     </div>
   </div>
   <div class="cat-block">
-    <div class="cat-title">Brioche Speciali</div>
+    <div class="cat-title">Crêpe</div>
     <div class="menu-grid">
      <div class="menu-item special"><span class="menu-item-name">Crema e Fragole</span><span class="menu-item-price">€ 2,50</span></div>
      <div class="menu-item special"><span class="menu-item-name">Nutella</span><span class="menu-item-price">€ 2,50</span></div>
@@ -626,6 +634,8 @@
     <div class="coppa-card"><div class="coppa-emoji">🥛</div><div class="coppa-name">Milkshake</div><div class="coppa-price">€ 5,00</div></div>
     <div class="coppa-card"><div class="coppa-emoji">☕</div><div class="coppa-name">Mini Affogato</div><div class="coppa-price">€ 3,00</div></div>
     <div class="coppa-card"><div class="coppa-emoji">☕</div><div class="coppa-name">Affogato</div><div class="coppa-price">€ 5,00</div></div>
+    <div class="coppa-card"><div class="coppa-emoji">🍦</div><div class="coppa-name">Cono o coppetta di panna montata</div><div class="coppa-price"></div></div>
+    <div class="coppa-card"><div class="coppa-emoji">✨</div><div class="coppa-name">Con aggiunta di cacao o cannella</div><div class="coppa-price"></div></div>
   </div>
   <div class="cat-block">
     <div class="cat-title">Gusti Disponibili</div>
@@ -658,6 +668,8 @@
       <div class="menu-item"><span class="menu-item-name">Brioche Salata Piccola</span><span class="menu-item-price">€ 2,00</span></div>
       <div class="menu-item"><span class="menu-item-name">Brioche Salata Grande</span><span class="menu-item-price">€ 4,00</span></div>
       <div class="menu-item special full"><span class="menu-item-name">Taglieri</span><span class="menu-item-price">€ 10,00</span></div>
+      <div class="menu-item"><span class="menu-item-name">Trancio pizze</span><span class="menu-item-price"></span></div>
+      <div class="menu-item"><span class="menu-item-name">Focacce</span><span class="menu-item-price"></span></div>
     </div>
   </div>
 </div>
@@ -686,6 +698,64 @@
       <div class="menu-item special"><span class="menu-item-name">Punch</span><span class="menu-item-price">€ 3,00</span></div>
       <div class="menu-item special"><span class="menu-item-name">Shakerato</span><span class="menu-item-price">€ 3,50</span></div>
       <div class="menu-item special"><span class="menu-item-name">Shakerato Baileys / Vaniglia</span><span class="menu-item-price">€ 4,00</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- PASTICCERIA -->
+<div class="section" id="pasticceria">
+  <h2 class="section-title">Pasticce<em>ria</em></h2>
+  <p class="section-desc">Dolci artigianali, ogni giorno.</p>
+  <div class="cat-block">
+    <div class="cat-title">Pasticceria</div>
+    <div class="menu-grid">
+      <div class="menu-item special"><span class="menu-item-name">Crostatina frutta mix</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Crostatina fragole</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Crostatina frutti di bosco</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Maritozzo panna e crema</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Maritozzo panna e Nutella</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Maritozzo panna e fragole</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Anagostina Maxi</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Fetta di torta</span><span class="menu-item-price">€ 3,00</span></div>
+      <div class="menu-item"><span class="menu-item-name">Pasticcini (ricci, dama, misto)</span><span class="menu-item-price"></span></div>
+      <div class="menu-item"><span class="menu-item-name">Biscotti da tè</span><span class="menu-item-price"></span></div>
+      <div class="menu-item"><span class="menu-item-name">Paste mandorla</span><span class="menu-item-price"></span></div>
+      <div class="menu-item"><span class="menu-item-name">Frolle</span><span class="menu-item-price"></span></div>
+      <div class="menu-item"><span class="menu-item-name">Ventaglietti</span><span class="menu-item-price"></span></div>
+    </div>
+  </div>
+</div>
+
+<!-- INVERNO -->
+<div class="section" id="inverno">
+  <h2 class="section-title"><em>Inver</em>no</h2>
+  <p class="section-desc">Caldi e avvolgenti, per le giornate fredde.</p>
+  <div class="cat-block">
+    <div class="cat-title">Calde & Speciali</div>
+    <div class="menu-grid">
+      <div class="menu-item special"><span class="menu-item-name">Cioccolate</span><span class="menu-item-price"></span></div>
+      <div class="menu-item special"><span class="menu-item-name">Bombardino</span><span class="menu-item-price"></span></div>
+      <div class="menu-item special"><span class="menu-item-name">Punch</span><span class="menu-item-price"></span></div>
+      <div class="menu-item special"><span class="menu-item-name">Coppa crema</span><span class="menu-item-price"></span></div>
+      <div class="menu-item special"><span class="menu-item-name">Irish Coffee</span><span class="menu-item-price"></span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ESTATE -->
+<div class="section" id="estate">
+  <h2 class="section-title"><em>Esta</em>te</h2>
+  <p class="section-desc">Fresco e goloso, come l'estate.</p>
+  <div class="cat-block">
+    <div class="cat-title">Coppe</div>
+    <div class="menu-grid">
+      <div class="menu-item special"><span class="menu-item-name">Macedonia</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Macedonia con panna</span><span class="menu-item-price">€ 6,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Macedonia con gelato</span><span class="menu-item-price"></span></div>
+      <div class="menu-item special"><span class="menu-item-name">Fragole fresche</span><span class="menu-item-price">€ 5,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Fragole con panna</span><span class="menu-item-price">€ 6,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Fragole con gelato</span><span class="menu-item-price">€ 6,00</span></div>
+      <div class="menu-item special"><span class="menu-item-name">Frullati</span><span class="menu-item-price"></span></div>
     </div>
   </div>
 </div>
